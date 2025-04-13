@@ -48,6 +48,5 @@ if uploaded_file and job_desc:
             st.warning("🟡 Decent match. You may want to tweak a few sections.")
         else:
             st.error("🔴 Low match. Consider tailoring your resume more to this job.")
-        
 else:
     st.button("Get Score", disabled=True)
